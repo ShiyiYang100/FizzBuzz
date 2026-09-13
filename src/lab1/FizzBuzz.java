@@ -3,6 +3,15 @@ package lab1;
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
+
+
+class Main {
+
+    public static void main(String[] args) {
+        FizzBuzz.doFizzBuzz(5);
+        FizzBuzz.main(new String[0]);
+    }
+}
 class FizzBuzz {
 
     public static void main(String[] args) {
@@ -21,7 +30,7 @@ class FizzBuzz {
         }
     }
 
-    private static void doFizzBuzz(int i) {
+    protected static void doFizzBuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
