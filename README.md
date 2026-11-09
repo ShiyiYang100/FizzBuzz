@@ -547,5 +547,5 @@ We'll briefly summarize two approaches you might take for this:
    git does a pretty good job telling you what is wrong and can help you resolve any conflicts. We'll talk more about
    this later, as well as other features of git which can help you avoid conflicts.aaa
 
-
+aaa
 Test Test
